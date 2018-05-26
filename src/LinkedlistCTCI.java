@@ -61,7 +61,7 @@ public class LinkedlistCTCI {
                 System.out.println("Enter node");
                 //no access
                 //Node n = 10;
-                deleteNode(n);
+               // deleteNode(n);
                 break;
         }
 
