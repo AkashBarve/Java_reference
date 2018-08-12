@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fdcd5e-5b1d-4cbf-a01e-d3af1dbb9172" name="Default" comment="flip to win">
-      <change afterPath="$PROJECT_DIR$/src/PalindromeImproved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bubblesort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,24 +16,24 @@
     <session id="-1529277790">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7826" />
+          <entry key="java" value="8196" />
           <entry key="regexp" value="3" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7826" />
+          <entry key="JAVA" value="8196" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="RegExp" value="3" />
         </counts>
@@ -49,15 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bank.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,11 +115,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PalindromeImproved.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="522">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bubblesort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/forge/anewalphabet.java" />
         <option value="$PROJECT_DIR$/src/sorting.java" />
         <option value="$PROJECT_DIR$/src/PalindromeImproved.java" />
+        <option value="$PROJECT_DIR$/src/bubblesort.java" />
       </list>
     </option>
   </component>
@@ -831,7 +835,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534071681660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534082053786" />
     <property name="last.edited.regexp" value="|" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -849,7 +853,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sorting">
+  <component name="RunManager" selected="Application.bubblesort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -876,8 +880,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bank" />
+    <configuration name="bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bubblesort" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -944,19 +948,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.bank" />
       <item itemvalue="Application.contestB" />
       <item itemvalue="Application.contestC" />
       <item itemvalue="Application.anewalphabet" />
       <item itemvalue="Application.sorting" />
+      <item itemvalue="Application.bubblesort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bubblesort" />
         <item itemvalue="Application.sorting" />
         <item itemvalue="Application.anewalphabet" />
         <item itemvalue="Application.contestC" />
         <item itemvalue="Application.contestB" />
-        <item itemvalue="Application.bank" />
       </list>
     </recent_temporary>
   </component>
@@ -1001,7 +1005,7 @@
     <frame x="134" y="35" width="3706" height="2125" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18048646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18048646" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1010,7 +1014,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17339796" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17339796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956918" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1043,6 +1047,18 @@
           <url>file://$PROJECT_DIR$/src/urlify.java</url>
           <line>14</line>
           <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bubblesort.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bubblesort.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1286,8 +1302,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PalindromeImproved.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bubblesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
