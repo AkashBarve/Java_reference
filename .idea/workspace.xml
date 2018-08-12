@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26fdcd5e-5b1d-4cbf-a01e-d3af1dbb9172" name="Default" comment="flip to win">
-      <change afterPath="$PROJECT_DIR$/src/EightQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forge/anewalphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forge/contestB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/forge/contestC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PalindromeImproved.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/recursivemultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/recursivemultiply.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,24 +16,24 @@
     <session id="-1529277790">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7825" />
+          <entry key="java" value="7826" />
           <entry key="regexp" value="3" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7825" />
+          <entry key="JAVA" value="7826" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="RegExp" value="3" />
         </counts>
@@ -56,15 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forge/contestB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="435">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,11 +115,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/palinperm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PalindromeImproved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -213,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/forge/contestC.java" />
         <option value="$PROJECT_DIR$/src/forge/anewalphabet.java" />
         <option value="$PROJECT_DIR$/src/sorting.java" />
+        <option value="$PROJECT_DIR$/src/PalindromeImproved.java" />
       </list>
     </option>
   </component>
@@ -837,7 +831,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534022369575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534071681660" />
     <property name="last.edited.regexp" value="|" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -1226,16 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/forge/contestB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/forge/contestC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -1287,6 +1271,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/forge/contestB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PalindromeImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
